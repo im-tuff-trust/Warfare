@@ -1,0 +1,30 @@
+{
+  "name": "warfare",
+  "version": "1.0.0",
+  "private": true,
+  "description": "WARFARE: Steel & Sky. A browser-based 3D WWII tank and aircraft combat game",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "realtime": "node server/realtime.mjs",
+    "typecheck": "tsc --noEmit"
+  },
+  "engines": {
+    "node": ">=18.18"
+  },
+  "dependencies": {
+    "next": "^16.4.6",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "three": "^0.180.0",
+    "ws": "^8.23.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@types/three": "^0.180.0",
+    "typescript": "^5.9.3"
+  }
+}
